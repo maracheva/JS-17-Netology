@@ -1,2 +1,2 @@
-# Netology-JS---17-
-JavaScript
+# Netology group JS-17
+homeworks by JavaScript
