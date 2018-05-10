@@ -1,0 +1,28 @@
+Тест к занятию «Иерархия прототипов и наследование»
+
+1. Как правильно унаследовать возможности Shape в Circle?
+Правильный ответ: Нет правильного ответа
+
+2. Чему равен прототип объекта Object.prototype?
+Правильный ответ: null
+
+3. Как проверить что массив является объектом?
+Правильный ответ: Object.prototype.isPrototypeOf(Array.prototype)
+
+4. Какое из выражений справедливо для этого блока кода:
+class Animal {}
+class Elephant extends Animal {}
+Правильный ответ: Объект Animal.prototype станет прототипом для объекта Elephant.prototype
+
+5. Как внутри метода turnLeft класса Boing вызвать метод turnLeft класса Plane?
+class Plane {
+   turnLeft() {}
+}
+
+class Boing extends Plane {
+   turnLeft() {
+     // Вызвать тут
+   }
+}
+
+Правильный ответ: super.turnLeft()
